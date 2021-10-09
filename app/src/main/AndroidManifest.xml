@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Practical2">
         <activity
-            android:name=".LoginActivity"
+            android:name=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -18,7 +18,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".RegisterActivity"
+            android:name=".ActivityTwo"
             android:theme="@style/AppTheme.NoActionBar" />
     </application>
 

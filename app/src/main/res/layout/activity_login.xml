@@ -72,8 +72,17 @@
                     style="@style/viewParent"
                     android:layout_gravity="end"
                     android:layout_marginTop="10dp"
+                    android:text="Remeber me?"
+                    android:layout_marginLeft="30dp"
+                    android:textColor="@color/primaryTextColor"
+                    android:textSize="@dimen/newsMoreTextSize" />
+
+                <TextView
+                    style="@style/viewParent"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="10dp"
                     android:text="Forgot Password?"
-                    android:layout_marginLeft="144dp"
+                    android:layout_marginLeft="250dp"
                     android:textColor="@color/primaryTextColor"
                     android:textSize="@dimen/newsMoreTextSize" />
 

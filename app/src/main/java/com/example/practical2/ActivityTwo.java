@@ -1,19 +1,19 @@
 package com.example.practical2;
 
-import android.os.Bundle;
 import android.app.Activity;
 import android.content.Intent;
+import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
-public class MainActivity extends Activity {
+public class ActivityTwo extends Activity {
     // Defining the object for button
     Button button1;
     @Override
-    public void onCreate(Bundle savedInstanceState)
+    public void onCreate(Bundle bundle)
     {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        super.onCreate(bundle);
+        setContentView(R.layout.activity_two);
         // Bind the components to their respective objects
         // by assigning their IDs
         // with the help of findViewById() method
@@ -23,7 +23,7 @@ public class MainActivity extends Activity {
             {
                 // Creating explicit intent
                 Intent i = new Intent(getApplicationContext(),
-                        ActivityTwo.class);
+                        MainActivity.class);
                 startActivity(i);
             }
         });
