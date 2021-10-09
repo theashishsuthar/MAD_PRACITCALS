@@ -58,13 +58,27 @@
                     android:inputType="textPassword"
                     android:maxLines="1" />
             </com.google.android.material.textfield.TextInputLayout>
-            <TextView
-                style="@style/viewParent"
-                android:layout_gravity="end"
-                android:layout_marginTop="10dp"
-                android:text="Forgot Password?"
-                android:textColor="@color/primaryTextColor"
-                android:textSize="@dimen/newsMoreTextSize" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    />
+
+                <TextView
+                    style="@style/viewParent"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="10dp"
+                    android:text="Forgot Password?"
+                    android:layout_marginLeft="144dp"
+                    android:textColor="@color/primaryTextColor"
+                    android:textSize="@dimen/newsMoreTextSize" />
+
+            </RelativeLayout>
+
 
 <!--            <br.com.simplepass.loading_button_lib.customViews.CircularProgressButton-->
 <!--                android:id="@+id/cirLoginButton"-->
